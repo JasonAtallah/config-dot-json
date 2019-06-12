@@ -1,7 +1,7 @@
 {
   "name": "config-dot-json",
   "version": "1.0.0",
-  "description": "Library for loading a json file into process.env",
+  "description": "Library for loading a json file into process.env, supports nested objects",
   "main": "index.js",
   "scripts": {
     "test": "node index.spec.js"
@@ -14,7 +14,8 @@
     ".env",
     "dotenv",
     "config",
-    "config.json"
+    "config.json",
+    ".env.json"
   ],
   "author": "Jason Atallah <jason.atallah@gmail.com>",
   "license": "MIT",
