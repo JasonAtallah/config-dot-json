@@ -1,0 +1,25 @@
+{
+  "name": "config-dot-json",
+  "version": "1.0.0",
+  "description": "Library for loading a json file into process.env",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonAtallah/config-dot-json.git"
+  },
+  "keywords": [
+    ".env",
+    "dotenv",
+    "config",
+    "config.json"
+  ],
+  "author": "Jason Atallah <jason.atallah@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonAtallah/config-dot-json/issues"
+  },
+  "homepage": "https://github.com/JasonAtallah/config-dot-json#readme"
+}
