@@ -9,7 +9,9 @@ Node library for loading a json file into process.env, supports nested json file
 2) Call load method to load config file into process.env `dotjson.load()`
 
 ### Options
-`path` the load method accepts one parameter, path. By default it will load `config.json` in the root of your application. However, config file can be moved and renamed by passing through new path.
+the load method accepts an options object
+ - `path` By default it will look for `config.json` in the root of your application unless path is specified.
+ - `override` If set to true, any current variables in process.env that also exist in config file will be overridden by the values in the config file. Set to false by default.
 
 ##### Example
 
