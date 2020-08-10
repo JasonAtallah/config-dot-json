@@ -10,7 +10,7 @@ Node library for loading a json file into process.env, supports nested json file
 
 ### Options
 the load method accepts an options object
- - `path` By default it will look for `config.json` in the root of your application unless path is specified.
+ - `filePath` By default it will look for `config.json` in the root of your application unless path is specified.
  - `override` If set to true, any current variables in process.env that also exist in config file will be overridden by the values in the config file. Set to false by default.
 
 ##### Example
