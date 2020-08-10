@@ -26,5 +26,5 @@ index.js
 ```
 const dotjson = require('config-dot-json');
 
-dotjson.load({ path:'./config/env.json });
+dotjson.load({ filePath:'./config/env.json });
 ```
