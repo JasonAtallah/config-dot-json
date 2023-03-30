@@ -1,4 +1,6 @@
 # config-dot-json
+> I don't recommend you use this library, if you have the choice use a standard `.env`. This library was built out of necessity to solve a specific issue.
+ 
 Node library for loading a json file into process.env, supports nested json files as well.
 
 I wouldn't recommend using this in a new project. The only reason I created this is because while working on a legacy system for a client I ran into a bunch of microservices using JSON files to store their configs.
